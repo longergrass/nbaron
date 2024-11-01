@@ -9,6 +9,7 @@ import { EmailSubscription } from '../components/EmailSubscription';
     <meta name='viewport' content='width=device-width' />
     <meta name='generator' content={Astro.generator} />
     <meta name='color-scheme' content='dark' />
+    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
     <title>nbaron</title>
   </head>
   <body class='pt-7 pb-5 min-h-screen flex flex-col justify-between'>
@@ -45,6 +46,13 @@ import { EmailSubscription } from '../components/EmailSubscription';
             <div class='flex gap-3 flex-col sm:flex-row'>
               <div class='flex-1 flex flex-col gap-3'>
                 <Card
+                  domain='skin-cancer.nbaron.com'
+                  githubURL='https://github.com/nbaron1/detect-cancer'
+                  title='Detect Melanoka Skin Cancer with AI'
+                  url='https://skin-cancer.nbaron.com'
+                  client:load
+                />
+                <Card
                   domain='onlyvisitonce.com'
                   githubURL='https://github.com/nbaron1/onlyvisitonce'
                   title='A website you can only visit once'
@@ -58,15 +66,15 @@ import { EmailSubscription } from '../components/EmailSubscription';
                   url='https://counttoamillion.com/'
                   client:load
                 />
-                <Card
-                  domain='detect-cancer.nbaron.com'
-                  githubURL='https://github.com/nbaron1/melanoma-detector/'
-                  title='Detect Melanoka Skin Cancer with AI'
-                  url='https://cancer-detect.nbaron.com'
-                  client:load
-                />
               </div>
               <div class='flex-1 flex flex-col gap-3'>
+                <Card
+                  domain='skin-cancer.nbaron.com'
+                  githubURL='https://github.com/nbaron1/detect-cancer'
+                  title='Detect Brain Tumors with AI'
+                  url='https://brain-tumor.nbaron.com'
+                  client:load
+                />
                 <Card
                   domain='visitarandomwebsite.com'
                   githubURL='https://github.com/nbaron1/visitarandomwebsite'
