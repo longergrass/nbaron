@@ -29,10 +29,7 @@ import { EmailSubscription } from '../components/EmailSubscription';
                   world a better place.
                 </p>
               </div>
-              <p>
-                Want to contact me? Send me an email at
-                <a href='mailto:noah@nbaron.com'> noah@nbaron.com </a>
-              </p>
+
               <p class='text-lg'>
                 Want to support me?{' '}
                 <a
@@ -109,21 +106,30 @@ import { EmailSubscription } from '../components/EmailSubscription';
         <EmailSubscription client:load />
       </section>
     </div>
-    <footer class='flex items-center gap-4 px-7'>
-      <a
-        href='https://github.com/nbaron1'
-        target='_blank'
-        class='text-gray-200'
-      >
-        GitHub
-      </a>
-      <a
-        href='https://x.com/noahthebaron'
-        target='_blank'
-        class='text-gray-200'
-      >
-        Twitter
-      </a>
+    <footer
+      class='flex sm:items-center gap-4 px-7 justify-between text-gray-200 flex-col sm:flex-row items-start'
+    >
+      <p>
+        Send me an email at <a href='mailto:noah@nbaron.com' class='underline'>
+          noah@nbaron.com
+        </a>
+      </p>
+      <div class='flex items-center gap-3'>
+        <a
+          href='https://github.com/nbaron1'
+          target='_blank'
+          class='text-gray-200'
+        >
+          GitHub
+        </a>
+        <a
+          href='https://x.com/noahthebaron'
+          target='_blank'
+          class='text-gray-200'
+        >
+          Twitter
+        </a>
+      </div>
     </footer>
   </body>
 </html>
