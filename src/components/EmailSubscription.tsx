@@ -201,7 +201,7 @@ export function EmailSubscription() {
       <div className=''>
         <button
           onClick={handleSubmit}
-          className='mt-2 lg:hidden lg:mt-0 w-full text-center text-gray-50 bg-gray-800 border border-gray-400 bg-gray-500 rounded py-3'
+          className='mt-3 lg:hidden lg:mt-0 w-full text-center text-gray-50 bg-gray-800 border border-gray-400 bg-gray-500 rounded py-3'
         >
           <TextState state={fetchingState} />
         </button>
